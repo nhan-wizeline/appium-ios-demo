@@ -28,6 +28,9 @@ public class MainTest extends BaseTest {
         PageLogin pageLogin = new PageLogin(appiumDriver);
         PageHome pageHome = pageLogin.login("username", "password");
 
+        System.out.println(botName + " - " + botDescription);
+        System.out.println(pageHome.getBotName() + " - " + pageHome.getBotDescription());
+
         Assert.assertTrue(pageHome.verifyBotNameAndBotDesc(botName, botDescription));
     }
 }
