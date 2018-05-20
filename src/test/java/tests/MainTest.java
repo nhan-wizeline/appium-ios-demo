@@ -9,7 +9,7 @@ import pages.PageTweetDetails;
 public class MainTest extends BaseTest {
 
     @Test
-    public void verifyTweeterDetail(){
+    public void verifyTweetDetail(){
         String botName = "Wize Bot";
         String botDescription = "@wizeservicesbot - Wize Services Challenge Bot";
 
