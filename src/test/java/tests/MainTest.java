@@ -23,7 +23,7 @@ public class MainTest extends BaseTest {
     @Test
     public void verifyBotNameAndDescription(){
         String botName = "Wize Bot";
-        String botDescription = "@wizeservicesbot - Wize Services Challenge Bot";
+        String botDescription = "Wize Services Challenge Bot";
 
         PageLogin pageLogin = new PageLogin(appiumDriver);
         PageHome pageHome = pageLogin.login("username", "password");
